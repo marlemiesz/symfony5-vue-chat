@@ -22,7 +22,7 @@ class Conversation
     private $id;
 
     /**
-     * @ORM\OneToMany(targetEntity="Participant", mappedBy="convarsation")
+     * @ORM\OneToMany(targetEntity="Participant", mappedBy="conversation")
      */
     private $participants;
 
